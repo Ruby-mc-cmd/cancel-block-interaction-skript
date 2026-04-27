@@ -1,0 +1,54 @@
+on right click:
+    if event-block is oak door:
+        stop
+    if event-block is spruce door:
+        stop
+    if event-block is birch door:
+        stop
+    if event-block is jungle door:
+        stop
+    if event-block is acacia door:
+        stop
+    if event-block is dark oak door:
+        stop
+    if event-block is mangrove door:
+        stop
+    if event-block is cherry door:
+        stop
+    if event-block is pale oak door:
+        stop
+    if event-block is bamboo door:
+        stop
+    if event-block is crimson door:
+        stop
+    if event-block is warped door:
+        stop
+    if event-block is copper door:
+        stop
+    if event-block is exposed copper door:
+        stop
+    if event-block is weathered copper door:
+        stop
+    if event-block is oxidized copper door:
+        stop
+    if event-block is waxed copper door:
+        stop
+    if event-block is waxed exposed copper door:
+        stop
+    if event-block is waxed weathered copper door:
+        stop
+    if event-block is waxed oxidized copper door:
+        stop
+    if player's tool is written book:
+        stop
+    if player's off hand is amethyst_shard:
+        stop
+    cancel event
+
+on left click:
+    if player's off hand is amethyst_shard:
+        stop
+    cancel event
+
+on drop:
+    cancel event
